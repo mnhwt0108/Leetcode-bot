@@ -5,6 +5,7 @@ from discord.ext import commands
 from keep_alive import keep_alive
 
 
+
 prefix = '!'
 client = discord.Client()
 bot = commands.Bot(command_prefix=prefix)
